@@ -7,7 +7,7 @@ description: "Split an ambiguous or bundled problem concerning a work or persona
 
 ## Input gate
 
-Before splitting the request, invoke `product-context` unless the current product problem already has an accepted context checkpoint. Build the problem map from the accepted evidence, gaps, and conflicts rather than from the request alone. If the scope changes or later evidence contradicts the checkpoint, reopen it before continuing.
+Before splitting the request, invoke `product-context` unless the current product problem already has an accepted context checkpoint. Do not begin decomposition until the user has explicitly approved moving past the latest context checkpoint. Build the problem map from the accepted evidence, gaps, and conflicts rather than from the request alone. If the scope changes or later evidence contradicts the checkpoint, reopen it before continuing.
 
 A single request often hides several problems inside what looks like one ask. This skill
 is the check for that: run the split test, and if the request really does tangle more than

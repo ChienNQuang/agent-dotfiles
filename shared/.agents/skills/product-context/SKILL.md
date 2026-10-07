@@ -164,7 +164,10 @@ Ask the user:
 4. Should any additional source be searched first?
 
 Do not proceed to decomposition, consideration, or design until the user confirms the
-checkpoint or explicitly asks to continue with the stated uncertainty.
+checkpoint or explicitly asks to continue with the stated uncertainty. Do not move to
+the next workflow stage until the user explicitly approves the current checkpoint and
+asks to proceed; agreement with individual findings, sources, or authority assessments
+is not approval to advance.
 
 ## 6. Continue
 
