@@ -19,9 +19,9 @@ Additional agent-specific directories can be added alongside `.pi/` as needed.
 Requires [GNU Stow](https://www.gnu.org/software/stow/).
 
 ```sh
-mkdir -p ~/.local/share
-git clone https://github.com/ChienNQuang/agent-dotfiles.git ~/.local/share/agent-dotfiles
-stow --dir="$HOME/.local/share" --target="$HOME" --no-folding agent-dotfiles
+mkdir -p ~/.config
+git clone https://github.com/ChienNQuang/agent-dotfiles.git ~/.config/agent-dotfiles
+stow --dir="$HOME/.config" --target="$HOME" --no-folding agent-dotfiles
 pi update --extensions
 ```
 
@@ -31,15 +31,15 @@ remain in `$HOME` rather than being written into the repository.
 Update an existing installation:
 
 ```sh
-git -C ~/.local/share/agent-dotfiles pull --ff-only
-stow --dir="$HOME/.local/share" --target="$HOME" --restow --no-folding agent-dotfiles
+git -C ~/.config/agent-dotfiles pull --ff-only
+stow --dir="$HOME/.config" --target="$HOME" --restow --no-folding agent-dotfiles
 pi update --extensions
 ```
 
 Remove the managed links without deleting machine-local runtime state:
 
 ```sh
-stow --dir="$HOME/.local/share" --target="$HOME" --delete agent-dotfiles
+stow --dir="$HOME/.config" --target="$HOME" --delete agent-dotfiles
 ```
 
 ## Install through the dotfiles repository
