@@ -2,21 +2,21 @@
 .DS_Store
 
 # Pi credentials
-.pi/agent/auth.json
-.pi/agent/mcp-auth.json
+pi/.pi/agent/auth.json
+pi/.pi/agent/mcp-auth.json
 
 # Pi machine-local configuration and state
-.pi/agent/claude-bridge.json
-.pi/agent/mcp-cache.json
-.pi/agent/mcp-npx-cache.json
-.pi/agent/mcp-onboarding.json
-.pi/agent/mcp.json
-.pi/agent/missions/
-.pi/agent/models-store.json*
-.pi/agent/npm/
-.pi/agent/pi-subagents/
-.pi/agent/run-history.jsonl
-.pi/agent/sessions/
-.pi/agent/settings.json.bak
-.pi/agent/trust.json
-.pi/agent/web-search-cache/
+pi/.pi/agent/claude-bridge.json
+pi/.pi/agent/mcp-cache.json
+pi/.pi/agent/mcp-npx-cache.json
+pi/.pi/agent/mcp-onboarding.json
+pi/.pi/agent/mcp.json
+pi/.pi/agent/missions/
+pi/.pi/agent/models-store.json*
+pi/.pi/agent/npm/
+pi/.pi/agent/pi-subagents/
+pi/.pi/agent/run-history.jsonl
+pi/.pi/agent/sessions/
+pi/.pi/agent/settings.json.bak
+pi/.pi/agent/trust.json
+pi/.pi/agent/web-search-cache/
