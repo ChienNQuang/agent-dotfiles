@@ -14,6 +14,34 @@ installations, and other machine-local runtime state.
 
 Additional agent-specific directories can be added alongside `.pi/` as needed.
 
+## Install standalone
+
+Requires [GNU Stow](https://www.gnu.org/software/stow/).
+
+```sh
+mkdir -p ~/.local/share
+git clone https://github.com/ChienNQuang/agent-dotfiles.git ~/.local/share/agent-dotfiles
+stow --dir="$HOME/.local/share" --target="$HOME" --no-folding agent-dotfiles
+pi update --extensions
+```
+
+Use `--no-folding` so credentials, sessions, caches, and other runtime state
+remain in `$HOME` rather than being written into the repository.
+
+Update an existing installation:
+
+```sh
+git -C ~/.local/share/agent-dotfiles pull --ff-only
+stow --dir="$HOME/.local/share" --target="$HOME" --restow --no-folding agent-dotfiles
+pi update --extensions
+```
+
+Remove the managed links without deleting machine-local runtime state:
+
+```sh
+stow --dir="$HOME/.local/share" --target="$HOME" --delete agent-dotfiles
+```
+
 ## Install through the dotfiles repository
 
 This repository is included as the `agents` submodule of
@@ -25,9 +53,6 @@ cd ~/dotfiles
 stow --no-folding agents
 pi update --extensions
 ```
-
-Use `--no-folding` so agent runtime files remain in `$HOME` rather than being
-written into the repository.
 
 Existing checkout:
 
