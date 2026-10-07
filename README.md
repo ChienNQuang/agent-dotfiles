@@ -14,9 +14,18 @@ installations, and other machine-local runtime state.
 
 Additional agent-specific directories can be added alongside `.pi/` as needed.
 
-## Install standalone
+## Installation requirements
 
-Requires [GNU Stow](https://www.gnu.org/software/stow/).
+[GNU Stow](https://www.gnu.org/software/stow/) is required to install the
+complete repository. This is not a skills-only package: Stow installs both the
+shared skills and harness-specific configuration such as Pi settings, prompts,
+themes, extensions, and instruction files.
+
+The optional `npx skills` CLI can distribute only `.agents/skills/` to selected
+agent harnesses. It does not install the rest of this repository and therefore
+does not replace Stow.
+
+## Install standalone
 
 ```sh
 mkdir -p ~/.config
