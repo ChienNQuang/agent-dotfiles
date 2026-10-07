@@ -1,0 +1,23 @@
+# OS metadata
+.DS_Store
+
+# Pi credentials
+.pi/agent/auth.json
+.pi/agent/mcp-auth.json
+
+# Pi machine-local configuration and state
+.pi/agent/claude-bridge.json
+.pi/agent/extensions-disabled/
+.pi/agent/mcp-cache.json
+.pi/agent/mcp-npx-cache.json
+.pi/agent/mcp-onboarding.json
+.pi/agent/mcp.json
+.pi/agent/missions/
+.pi/agent/models-store.json*
+.pi/agent/npm/
+.pi/agent/pi-subagents/
+.pi/agent/run-history.jsonl
+.pi/agent/sessions/
+.pi/agent/settings.json.bak
+.pi/agent/trust.json
+.pi/agent/web-search-cache/
