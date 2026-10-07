@@ -7,7 +7,6 @@
 
 # Pi machine-local configuration and state
 .pi/agent/claude-bridge.json
-.pi/agent/extensions-disabled/
 .pi/agent/mcp-cache.json
 .pi/agent/mcp-npx-cache.json
 .pi/agent/mcp-onboarding.json
