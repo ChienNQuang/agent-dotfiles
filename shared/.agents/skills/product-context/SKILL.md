@@ -141,12 +141,18 @@ One sentence describing the problem being investigated, without proposing a solu
 
 ### Sources inspected
 
-| Source | What it supports | Authority | Reason |
-|---|---|---|---|
+Assign every source a stable sequential number in inspection order so the user and later
+workflow steps can refer to it unambiguously. Preserve those numbers when the checkpoint
+is revised or carried forward; append new sources rather than renumbering existing ones.
+
+| # | Source | What it supports | Authority | Reason |
+|---|---|---|---|---|
+| 1 | ... | ... | ... | ... |
 
 ### Conflicts and gaps
 
 List contradictions, missing evidence, inaccessible sources, and important uncertainty.
+Refer to sources by number when describing conflicts, gaps, or authority questions.
 
 ### Confirmation
 
