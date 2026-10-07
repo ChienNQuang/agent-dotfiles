@@ -67,6 +67,28 @@ available or could not be accessed.
 Use public web research only when external facts, standards, vendor behavior, or current
 official documentation matter.
 
+### Follow important gaps with deeper research
+
+Initial discovery and deeper research are one workflow, not separate mandatory passes.
+Scale the depth to the problem. Follow material gaps, contradictions, and uncertain
+constraints back to relevant code, original documents, or primary external sources
+before presenting the checkpoint. Do not stop at superficial discovery when an
+accessible source could answer a decision-critical question.
+
+When delegation is authorized and available, use focused parallel agents for independent
+research questions. Give each a bounded question, relevant context, source scope, and
+stopping condition. Use `scout` for local implementation evidence and `researcher` for
+public external evidence; inspect private connected sources through authorized tools.
+Ask for source references, findings, uncertainty, and remaining gaps. Verify material
+claims against the underlying evidence when synthesizing their results. Do not launch
+overlapping lanes or require subagents for a small investigation.
+
+Stop investigating when the problem is grounded well enough for a useful checkpoint,
+additional searches are unlikely to change that understanding, or remaining gaps require
+user input or unavailable access. State those gaps rather than researching indefinitely.
+You may recommend what evidence to inspect next, but do not recommend a product solution
+before the user accepts the context checkpoint.
+
 ## 3. Assess evidence and authority
 
 Authority is specific to the claim being supported. Do not assign authority solely from
