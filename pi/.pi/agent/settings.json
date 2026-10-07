@@ -15,7 +15,9 @@
       ]
     },
     "npm:pi-claude-bridge",
-    "npm:pi-affix-prompt"
+    "npm:pi-affix-prompt",
+    "npm:pi-agent-wait",
+    "npm:pi-goal"
   ],
   "extensions": [
     "+builtin:mcp"
