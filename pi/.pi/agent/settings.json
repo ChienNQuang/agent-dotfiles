@@ -6,7 +6,6 @@
   "defaultThinkingLevel": "high",
   "packages": [
     "npm:pi-web-access",
-    "npm:remote-pi",
     "npm:pi-subagents",
     {
       "source": "npm:pi-mcp-adapter",
