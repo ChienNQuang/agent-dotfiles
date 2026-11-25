@@ -12,7 +12,7 @@ installations, and other machine-local runtime state.
 | Package  | Installs to          | Contents                                              |
 | -------- | -------------------- | ----------------------------------------------------- |
 | `shared` | `~/.agents/skills/`  | Agent Skills read natively by Pi, Codex, and others   |
-| `pi`     | `~/.pi/agent/`       | Pi settings, instructions, prompts, themes, extensions |
+| `pi`     | `~/.pi/agent/`, `~/.config/mcp/` | Pi configuration and shared MCP server definitions |
 | `claude` | `~/.claude/skills/`  | Per-skill links into `shared` for Claude Code          |
 
 Install only the packages for the harnesses you use. Harness packages do not

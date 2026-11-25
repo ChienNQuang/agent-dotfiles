@@ -4,7 +4,8 @@ Portable configuration for coding agents, organized as GNU Stow packages:
 
 - `shared/` installs `~/.agents/skills/`, read natively by Pi and others.
 - `pi/` installs `~/.pi/agent/` (settings, instructions, prompts, themes,
-  extensions, subagent definitions).
+  extensions, subagent definitions) and shared MCP definitions under
+  `~/.config/mcp/`.
 - `claude/` installs `~/.claude/skills/` as per-skill symlinks into `shared/`.
 
 To add a harness, create another top-level package mirroring its home layout.
