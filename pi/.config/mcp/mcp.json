@@ -4,6 +4,16 @@
       "url": "https://mcp.notion.com/mcp",
       "auth": "oauth",
       "protocolVersion": "auto"
+    },
+    "slack": {
+      "url": "https://mcp.slack.com/mcp",
+      "auth": "oauth",
+      "oauth": {
+        "clientId": "1601185624273.8899143856786",
+        "redirectUri": "http://localhost:3118/callback"
+      },
+      "protocolVersion": "auto",
+      "description": "Search and work with Slack through the official Slack MCP server"
     }
   }
 }
